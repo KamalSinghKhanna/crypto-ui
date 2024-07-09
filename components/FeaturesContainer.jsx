@@ -674,7 +674,7 @@ const FeaturesContainer = () => {
                   <br />
                   <p className="text-white/80 text-base">
                     <span className="">
-                      To win: make sure you've connected your Twitter and
+                      To win: make sure you&apos;ve connected your Twitter and
                       Discord accounts - and follow our criteria!
                     </span>
                   </p>

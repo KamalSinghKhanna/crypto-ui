@@ -27,7 +27,7 @@ const footerLinks = {
   ],
 };
 
-const Footer = ()  =>{
+const Footer = () => {
   return (
     <footer
       aria-labelledby="footer-heading"
@@ -232,7 +232,6 @@ const Footer = ()  =>{
       </div>
     </footer>
   );
-}
-
+};
 
 export default Footer;

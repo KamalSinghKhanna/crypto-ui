@@ -1,7 +1,5 @@
-
+import Image from "next/image";
 import React from "react";
-
-
 
 const CryptoDictionary = () => {
   return (
@@ -17,12 +15,14 @@ const CryptoDictionary = () => {
             </p>
           </div>
 
-          <img
+          <Image
             className="rounded-2xl w-full h-72 sm:h-auto blur-sm sm:blur-none object-cover mt-6 sm:bg-white/5 cursor-pointer"
             alt="logo"
             src={
               "https://static.highongrowth.xyz/enterprise/660ed0280f5e5a9e8238d0f5/2e422c461a9a447b8c67c5642f6bf0fd.svg"
             }
+            width={500}
+            height={500}
           />
           <div className="w-full h-1/5 absolute max-w-7xl bottom-[1px] left-[1px] rounded-b-2xl flex justify-between items-center py-6 px-16 z-[1]">
             <div className="flex flex-col">
